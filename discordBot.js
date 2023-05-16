@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 const { Player , QueryType } = require('discord-player');
 
 // get some extractors if you want to handpick sources
-const { SpotifyExtractor, SoundCloudExtractor } = require('@discord-player/extractor');
+// const { SpotifyExtractor, SoundCloudExtractor } = require('@discord-player/extractor');
 
 const answers = require('./answers.js')
 const getRandom = require("./getRandomElement.js")
